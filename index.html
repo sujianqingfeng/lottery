@@ -134,6 +134,9 @@
             text-align: right;
             margin-right: 30px;
         }
+        .result-btn a {
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -145,12 +148,12 @@
 <div id="result" class="result">
 </div>
 <div id="tools" class="tools">
-     <button
+     <!-- <button
         v-for="value in btns"
         @click="onClick(value)"
         class="pure-button"
         :class="{ 'button-error': selected == value}"
-       >{{value}}</button>
+       >{{value}}</button> -->
     <button
        class="pure-button"
        @click="toggle"
@@ -216,7 +219,7 @@
         new Vue({
             el: '#tools',
             data: {
-                selected: 30,
+                selected: 1,
                 running: false,
                 btns: [
                     30, 10, 5, 2, 1
