@@ -1,7 +1,7 @@
 var member = [
   {
     "phone": "No.1",
-    "name": "张书宇"
+    "name": "张龙"
   },
   {
     "phone": "No.2",
@@ -282,9 +282,5 @@ var member = [
   {
     "phone": "No.71",
     "name": "齐志威"
-  },
-  {
-    "phone": "No.72",
-    "name": "张龙"
   }
 ]
